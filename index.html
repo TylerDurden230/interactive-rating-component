@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+  <div id="cnt" class="container">
+    <div class="star">
+      <img src="./images/icon-star.svg" alt="star">
+    </div>
+    <div>
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    </div>
+    <div class="circles">
+      <button id="1" class="circle" onclick="setActive(1)"><strong>1</strong></button>
+      <button id="2" class="circle" onclick="setActive(2)"><strong>2</strong></button>
+      <button id="3" class="circle" onclick="setActive(3)"><strong>3</strong></button>
+      <button id="4" class="circle" onclick="setActive(4)"><strong>4</strong></button>
+      <button id="5" class="circle" onclick="setActive(5)"><strong>5</strong></button>
+    </div>
+    <div class="section">
+      <button id="submit" onclick="submit()"><strong>SUBMIT</strong></button>
+    </div>
+  </div>
+
+  <div id="cnt2" class="container2">
+    <div>
+      <img src="./images/illustration-thank-you.svg" alt="star">
+    </div>
+    <div>
+      <h2>Thank You!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+    Coded by <a href="https://www.frontendmentor.io/profile/TylerDurden230">Tylerdurden230</a>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
