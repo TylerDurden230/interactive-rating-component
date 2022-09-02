@@ -142,6 +142,7 @@ button:active {
 
 .attribution {
     text-align: center;
+    margin: 3rem auto;
 }
 
 @media screen and (max-width: 400px) {
