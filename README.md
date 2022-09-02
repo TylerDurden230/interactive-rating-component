@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-ZJqmKTyA2V#feedback)
 - [Live Site](https://intratcomp.netlify.app/)
 
 ## My process
