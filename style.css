@@ -75,6 +75,17 @@ a {
     justify-content: center;
 }
 
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--medium-grey);
+    color: var(--orange);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
 .star {
     display: flex;
     justify-content: center;
@@ -129,8 +140,13 @@ button:active {
     color: var(--orange);
 }
 
-@media screen and (max-width: 600px) {
-    div.example {
-      display: none;
+.attribution {
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .container, .container2 {
+        width: 350px;
+        height: 400px;
     }
   }
